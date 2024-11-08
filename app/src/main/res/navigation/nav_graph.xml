@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/main_screen">
+
+    <!-- Composable para la pantalla principal -->
+    <composable
+        android:id="@+id/main_screen"
+        android:name="com.example.emergency.screens.MainScreen"
+        android:label="Main Screen" />
+
+    <!-- Composable para la pantalla de añadir evento -->
+    <composable
+        android:id="@+id/add_event"
+        android:name="com.example.emergency.screens.AddEventScreen"
+        android:label="Add Event" />
+
+    <!-- Composable para la pantalla de ver eventos -->
+    <composable
+        android:id="@+id/view_events"
+        android:name="com.example.emergency.screens.ViewEventsScreen"
+        android:label="View Events" />
+</navigation>
